@@ -1,0 +1,105 @@
+nav.nav{
+    background-color:rgba(55, 0, 255, 0.473);
+    height: 70px;
+    line-height: 70px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box ;
+}
+
+nav.nav p{
+    float: left;
+    height: inherit;
+    line-height: 70px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: white;
+}
+
+nav.nav ul{
+    float: right;
+    list-style: none;
+    line-height: inherit;
+}
+
+nav.nav ul a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+nav.nav ul li{
+    display: inline-block;
+    padding: 0px 8px;
+    margin: 0px 8px;
+}
+
+nav.nav ul li a:hover{
+    background-color: white;
+    color:rgba(55, 0, 225);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+div.bg-img{
+    background-image: url("kana-2.jpg");
+    background-size: 1350px 600px;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    position: relative;
+}
+
+input[type=text], select{
+    width: 400px;
+    padding: 12px 20px;
+    margin: 15px 0px;
+    margin-left: 30px;
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-top-style: none;
+    border-right-style: none;
+    cursor: pointer;
+    text-shadow: 1000px solid black;
+
+}
+
+
+div{
+    background-color: rgba(245, 243, 243, 0.959);
+    
+
+}
+input[type=submit]{
+    width: 200px;
+    height: inherit;
+    border: 1px solid red;
+    text-align: center;
+    padding: 10px 32px;
+    margin: 2px 4px;
+    display: inline-block;
+    cursor: alias;
+    font-family: geneva;
+    border-radius: 10px;
+}
+input[type=submit]:hover{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+#fname::after{
+    content: "*";
+    color: red;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

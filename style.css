@@ -1,0 +1,154 @@
+nav.nav{
+    background-color:rgba(55, 0, 255, 0.473);
+    height: 70px;
+    line-height: 70px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box ;
+}
+
+nav.nav p{
+    float: left;
+    height: inherit;
+    line-height: 70px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: white;
+}
+
+nav.nav ul{
+    float: right;
+    list-style: none;
+    line-height: inherit;
+}
+
+nav.nav ul a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+nav.nav ul li{
+    display: inline-block;
+    padding: 0px 8px;
+    margin: 0px 8px;
+}
+
+    nav.nav ul li a:hover{
+        background-color: white;
+        color:rgba(55, 0, 225);
+        padding: 10px;
+        border-radius: 7px;
+    }
+    
+div.background-image{
+    background: url("Main sample.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+div.background h1{
+    font-size:2em;
+}
+
+div.background{
+    background-color: rgba(0,0,0,50%);
+    height: inherit;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+div.background div{
+    text-align: center;
+}
+div.background-image{
+    color: white;
+}
+
+nav.nav h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1.welcome{
+    color: blue;
+    text-align: center;
+    background-color: pink;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+p.intro{
+    margin: 0 20px;
+}
+
+img.phone1{
+    width: 300px;
+}
+
+div.phone_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.phone{
+    border: 5px solid rgb(100,132,237);
+    margin: 10px;
+     background-color: rgb(100,132,237);
+     border-radius: 10px;
+}
+div.phone h4{
+    text-align: center;
+}
+    
+div.phone_container{
+    background-color: rgba(0,0,0,10%);
+    padding: 40px 10px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+img.phone1.short_phone{
+    height: 285px;
+}
+
+div.car_container h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width:400px) {
+    img.phone1 {
+        width: 250px;
+    }
+}
+
+div.car{
+    margin: 5px;
+}
+
+div button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgba(121, 85, 250, 0.473);
+    line-height: 10px;
+    color: white;
+
+}
